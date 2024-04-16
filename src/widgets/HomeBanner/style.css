@@ -1,0 +1,35 @@
+
+.home-banner .swiper-pagination .swiper-pagination-bullet {
+    background-color: #fff;
+    border-radius: var(--swiper-pagination-bullet-border-radius, 0);
+    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 116px));
+    height:  var(--swiper-pagination-bullet-size, 4px);
+}
+
+.home-banner .underlineProgress{
+    width: 116px;
+    height: 4px;
+    background-color: rgb(255, 255, 255) !important;
+    display: block;
+    border-radius: 20px;
+    margin-top: 10px    ;
+
+}
+
+
+
+.home-banner .active-slider-bg span{
+    background-color: var(--white-color);
+}
+
+@media only screen and (max-width:1536px){
+    .banner-content{
+        text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    }
+    .banner-btn-wrap{
+        left: 50%;
+        transform: translate(-50%); 
+    }
+}

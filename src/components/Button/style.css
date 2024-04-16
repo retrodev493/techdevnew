@@ -1,0 +1,136 @@
+.btn.btn-primary {
+  padding: 14px 17px;
+  border-radius: 10px;
+  color: #ffff;
+  min-height: 52px;
+  background-color: var(--btn-blue);
+  font-family: var(--ff-inter);
+  position: relative;
+  z-index: 1;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+
+.btn.btn-primary::after {
+  content: "";
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #0f57dd85;
+  transition: transform 0.4s ease;
+}
+
+.btn.btn-primary:hover {
+  color: var(--white-color);
+}
+.btn.btn-primary:hover::after {
+transform: scaleX(1);
+transform-origin: left;
+
+}
+
+
+.btn.outline-primary {
+  border: 2px solid var(--btn-title-color);
+  border-radius: 10px;
+  padding: 19px 22px;
+  color: #ffff;
+  height: 52px;
+  font-weight: 600;
+  font-family: var(--ff-inter);
+}
+
+.btn.outline-primary-black {
+  border: 2px solid var(--btn-title-color);
+  border-radius: 10px;
+  padding: 12px 22px;
+  color: var(--btn-title-color);
+  font-weight: 600;
+  font-family: var(--ff-inter);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.btn.outline-primary-black::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+transform: scalex(0);
+transform-origin: right;
+    top: 0;
+    left: 0;
+    background-color: #0f57dd85;
+    z-index: -1;
+    transition: transform 0.4s ease;
+}
+.btn.outline-primary-black:hover{
+color: var(--black-color);
+}
+.btn.outline-primary-black:hover::after{
+
+transform: scaleX(1);
+transform-origin: left;
+
+}
+
+.btn.outline-white {
+  border: 2px solid var(--white-color);
+  border-radius: 10px;
+  color: #ffff;
+  padding: 12px 22px;
+  font-family: var(--ff-inter);
+  height: 52px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  white-space: nowrap;
+
+}
+
+.btn.outline-white:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  transform-origin: right;
+  transform: scaleX(0);
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #0f57dd85;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn.outline-white:hover {
+  color: #fff;
+  border: 2px solid #ffffff;
+}
+.btn.outline-white:hover:after {
+transform-origin: left;
+transform: scaleX(1);
+}
+
+
+@media (max-width: 768px){
+  .btn.btn-primary {
+    padding: 14px 10px;
+    border-radius: 10px;
+    color: #ffff;
+    min-height: 52px;
+    background-color: var(--btn-blue);
+    font-family: var(--ff-inter);
+    position: relative;
+    z-index: 1;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,81 @@
+.testimonial-card .swiper-button-prev{
+    left: unset;
+    right: unset;
+    right: -85px;
+    left: auto;
+    top: 40%;
+    rotate: 90deg;
+}
+
+.testimonial-card .swiper{
+    padding-bottom: unset;
+    margin: unset;
+    overflow: unset;
+   
+}
+
+.testimonial-card .swiper-button-next {
+    right: unset;
+    right: -85px;
+    left: auto;
+    rotate: 90deg;
+    top: 55%;
+}
+
+
+.testimonial-card .swiper-button-prev:after, .testimonial-card .swiper-button-next:after {
+    font-size: unset;
+    color: var(--black-color);
+    background-color: var(--white-color);
+    padding: 10px 13px;
+    border-radius: 200px;
+}
+
+.testimonial-card .swiper-slide-next {
+
+    z-index: 2;
+    transform: unset;
+    transform: translate3d(calc(7.25% - 600px), 28px, 0px) rotateZ(0deg) scale(0.95) !important;
+    transition-duration: 0ms;
+}
+
+
+
+.testimonial-card .swiper-slide:last-child
+{
+
+    width: 561px;
+    z-index: 1;
+    transition-duration: 0ms;
+    transform: translate3d(calc(14% - 1196px), 69px, -187px) rotateZ(0deg) scale(1) !important;
+}
+
+
+.testimonial-card .swiper-3d .swiper-slide-shadow {
+    background-color: unset;
+    border-radius: 10px;
+}
+
+
+
+
+@media (max-width: 1536px) {
+    .testimonial-card .swiper-button-prev{
+        left: unset;
+        right: unset;
+        right: 46%;
+        left: auto;
+        top: 130%;
+        rotate: 90deg;
+    }
+
+    .testimonial-card .swiper-button-next {
+        right: unset;
+        right: 54%;
+        left: auto;
+        rotate: 90deg;
+        top: 130%;
+    }
+    
+    
+}

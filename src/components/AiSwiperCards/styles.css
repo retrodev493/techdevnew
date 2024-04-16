@@ -1,0 +1,64 @@
+.myswiper_data .swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal {
+    top: unset;
+    bottom: 0 !important;
+    width: 90%;
+}
+
+.swiper{
+    opacity: 0;
+    padding-bottom: 60px;
+}
+
+.swiper-initialized{
+    opacity: 1;
+}
+
+
+.myswiper_data .swiper-button-prev, .myswiper_data .swiper-button-next {
+    top: unset;
+    margin: unset;
+    bottom: -20px;
+}
+
+.myswiper_data .swiper-button-prev::after,.myswiper_data .swiper-button-next::after {
+
+font-size: unset;
+color: unset;
+font-size: 12px;
+font-weight: 700;
+background-color: unset;
+color: var(--black-color);
+background-color: var(--white-color);
+padding: 10px 13px;
+border-radius: 200px;
+
+}
+.myswiper_data .swiper-button-prev {
+  left: unset;
+  right: unset;
+  right: 50px;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: unset;
+    background: var(--black-color);
+}
+
+.myswiper_data .swiper-wrapper{
+    height: 100% !important;
+}
+
+
+.myswiper_data .swiper-autoheight .swiper-wrapper{
+    align-items: unset;
+}
+
+
+@media (max-width:992px){
+    .myswiper_data .swiper-horizontal > .swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal {
+        top: unset;
+        bottom: 0 !important;
+        width: 70%;
+    }
+    
+}

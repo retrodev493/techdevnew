@@ -1,0 +1,39 @@
+.insight-card-wrapper .swiper{
+    overflow: visible;
+}
+
+
+
+.insight-card-wrapper .swiper-button-prev, .insight-card-wrapper .swiper-button-next {
+    top: unset;
+    margin: unset;
+    bottom: -20px;
+}
+
+.insight-card-wrapper .swiper-button-prev::after, .insight-card-wrapper .swiper-button-next::after {
+
+font-size: unset;
+color: unset;
+font-size: 12px;
+font-weight: 700;
+background-color: unset;
+color: var(--black-color);
+background-color: var(--light-blue);
+padding: 10px 13px;
+border-radius: 200px;
+}
+.insight-card-wrapper .swiper-button-prev {
+  left: unset;
+  right: unset;
+  right: 50px;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: unset;
+    background: var(--black-color);
+}
+
+.insight-card-wrapper .swiper-slide {
+    height: 100%;
+}
+

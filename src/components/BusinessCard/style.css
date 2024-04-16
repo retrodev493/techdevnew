@@ -1,0 +1,18 @@
+@media (min-width:768px){
+    .bussiness-card{
+        width: calc((100% - 30px) / 2);
+    }
+}
+
+@media (min-width: 1200px){   
+    .bussiness-card{
+        width: calc((100% - 30px) / 3);
+    }
+}
+.bussiness-card{
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.bussiness-card:hover {
+    box-shadow: 0 20px 35px -25px rgba(90, 61, 50, 0.5);
+}
