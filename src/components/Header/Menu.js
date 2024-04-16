@@ -185,8 +185,7 @@ const Menu = () => {
                className='group relative text-black-color py-[15px] px-[15px]' 
                key={index}
                onMouseEnter={() => toggleDropdown(index)}
-               onMouseLeave={() => toggleDropdown(null)}
-             >
+               onMouseLeave={() => toggleDropdown(null)}>
                <Link href={item.link} className="font-medium text-sm 2xl:text-base group-hover:opacity-[0.5] transition-all duration-200 ease-in-out">
                  {item.title}
                </Link>
