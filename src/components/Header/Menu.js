@@ -191,9 +191,9 @@ const Menu = () => {
                  {item.title}
                </Link>
                {openIndex === index && (
-                 <ul className="absolute z-[99] top-full bg-white shadow-md py-2 rounded w-full">
+                 <ul className="absolute z-[99] top-full bg-white shadow-md py-2 rounded w-[94%]">
                    {item.sublinks.map((sublink, subIndex) => (
-                     <li key={subIndex}>
+                     <li className='px-[10px] py-[10px]' key={subIndex}>
                        <Link href={sublink.link} className="block py-1 text-black-color px-4 text-sm hover:opacity-50 transition-all duration-200 ease-in-out">
                          {sublink.title}
                        </Link>

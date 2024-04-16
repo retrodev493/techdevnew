@@ -1,12 +1,12 @@
-const facebook = './images/svg/fb.svg';
-const instagram ='./images/svg/instagram-svgrepo-com.svg'
-const linkedin ='./images/svg/linkedin-svgrepo-com.svg'
-const twitter ='./images/svg/twitter-svgrepo-com.svg'
-const youtube ='./images/svg/youtube-168-svgrepo-com.svg'
+const facebook = '/images/svg/fb.svg';
+const instagram ='/images/svg/instagram-svgrepo-com.svg'
+const linkedin ='/images/svg/linkedin-svgrepo-com.svg'
+const twitter ='/images/svg/twitter-svgrepo-com.svg'
+const youtube ='/images/svg/youtube-168-svgrepo-com.svg'
 
-const partnerposter1 = './images/1.png'
-const partnerposter2 = './images/2.png'
-const partnerposter3 = './images/3.png'
+const partnerposter1 = '/images/1.png'
+const partnerposter2 = '/images/2.png'
+const partnerposter3 = '/images/3.png'
 
 const bsvg1 ='./images/svg/bussiness/1.svg'
 const bsvg2 ='./images/svg/bussiness/2.svg'

@@ -58,7 +58,7 @@ const Footer = () => {
               {footerLink.partners.data.map((item, index) => (
                 <div key={index}>
                   <Image
-                    src={"/" + item.src}
+                    src={item.src}
                     alt={item.src}
                     width={item.width}
                     height={item.height}
