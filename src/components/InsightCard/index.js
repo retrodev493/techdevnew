@@ -1,28 +1,10 @@
-import gsap from 'gsap/gsap-core'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useEffect } from 'react'
+import React from 'react'
 
 
 
 const InsightCard = ({ data }) => {
-
-  useEffect(()=>{
-    const insightImage = document.querySelectorAll('.insight-image');
-    gsap.set(insightImage,{
-      scale:0
-    })
-    gsap.to(insightImage,{
-      scale:1,
-      duration:1,
-      ease:"power2.inOut",
-      scrollTrigger:{
-        trigger:'.insight-card',
-        start:"top bottom",
-        end:"top center",
-      }
-    })
-  },[])
 
   return (
     <div className='h-full insight-card'> 

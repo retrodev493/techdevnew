@@ -29,24 +29,21 @@ const Footer = () => {
         <div className="flex justify-between flex-col 2xl:flex-row pb-[50px] border-b border-gray-ttl">
           <div>
             <Sublink />
-
             <div className="flex gap-[24px]">
               {footerLink.terms.term.map((item, index) => (
                 <span
                   className="hover:opacity-[0.6] transition-all duration-200 ease-in-out"
-                  key={index}
-                >
+                  key={index}>
                   <Link
                     className="text-white-color text-sm 2xl:text-base"
-                    href={item.link}
-                  >
+                    href={item.link}>
                     {item.title}
                   </Link>
                 </span>
               ))}
             </div>
           </div>
-          {/* address */}
+                                                                                      
           <div className="py-[25px] 2xl:py-0">
             <Addressdata />
           </div>

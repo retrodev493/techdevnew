@@ -1,29 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useEffect } from 'react';
-import gsap from 'gsap';
+import React from 'react';
 
 
 const StudiesCard = ({ data }) => {
-
-  useEffect(()=>{
-    const casestudyImage = document.querySelectorAll(".case-studies-image");
-    gsap.set(casestudyImage,{
-      scale:0
   
-    })
-    gsap.to(casestudyImage,{
-      scale:1,
-      duration:1,
-      ease: "power2.inOut",
-      scrollTrigger:{
-        trigger:'.casestudy',
-        start:"top bottom",
-        end:"top center",
-      }
-    })
-  },[])
-
   return (
     <div className='h-full flex'>
       {data.type === 'large' ? 

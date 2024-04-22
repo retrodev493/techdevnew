@@ -103,5 +103,5 @@ const HomeBanner = () => {
           <AdPoster/>
         </section>
       );}
-
+      
 export default HomeBanner

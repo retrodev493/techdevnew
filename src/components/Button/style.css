@@ -11,8 +11,6 @@
   overflow: hidden;
 }
 
-
-
 .btn.btn-primary::after {
   content: "";
   position: absolute;
@@ -23,7 +21,7 @@
   top: 0;
   left: 0;
   z-index: -1;
-  background-color: #0f57dd85;
+  background-color: #42347486;
   transition: transform 0.4s ease;
 }
 
@@ -93,7 +91,6 @@ transform-origin: left;
   overflow: hidden;
   z-index: 1;
   white-space: nowrap;
-
 }
 
 .btn.outline-white:after {
@@ -106,8 +103,8 @@ transform-origin: left;
   top: 0;
   right: 0;
   z-index: -1;
-  background-color: #0f57dd85;
-  transition: transform 0.3s ease-in-out;
+  background-color: #80838a85;
+  transition: transform 0.4s ease-in-out;
 }
 
 .btn.outline-white:hover {
